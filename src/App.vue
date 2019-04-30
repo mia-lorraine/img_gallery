@@ -4,8 +4,15 @@
     <!-- <p v-for="album in albums" :key="album.id"> {{album.title}} </p> -->
 
     <table v-bind:colspan="5">
-    <tr v-for="photo in photos" :key="photo.id"> 
-      <td> <img v-bind:src="photo.url" v-bind:alt="photo.title"> </td>
+    <!-- <tr v-for="photo in photos" :key="photo.id"> 
+      <td> <img v-bind:src="photo.url" v-bind:alt="photo.title"> </td> -->
+      <tr>
+        <td> Row 1</td>
+        <td> Column 2</td>
+     </tr>
+     <tr>
+        <td> Row 2</td>
+        <td> Column 2.2</td>
      </tr>
     </table>
   </div>
