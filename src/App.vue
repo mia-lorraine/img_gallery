@@ -6,14 +6,12 @@
     <table v-bind:colspan="5">
     <!-- <tr v-for="photo in photos" :key="photo.id"> 
       <td> <img v-bind:src="photo.url" v-bind:alt="photo.title"> </td> -->
+      <div v-for="photo in photos" :key="photo.id">
       <tr>
-        <td> Row 1</td>
-        <td> Column 2</td>
+        <td> {{photo.id}}</td>
+        <td> {{photo.title}}</td>
      </tr>
-     <tr>
-        <td> Row 2</td>
-        <td> Column 2.2</td>
-     </tr>
+     </div>
     </table>
   </div>
 </template>
