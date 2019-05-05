@@ -30,9 +30,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ###functionality
 
-[] fixed header row (album.id, album.title,     photos.title, photos.thumbnail) 
+[x] fixed header row (album.id, album.title,     photos.title, photos.thumbnail) 
 [] Specific fields sortable(album.id,           albums.title, photos.title)
-[]Searchable on albums.title and                photos.title
+[] Searchable on albums.title and                photos.title
 [] Scrollable (show 25 rows by default)
 [] Custom filters - album.title
 [] thumbnail should appear as an image
